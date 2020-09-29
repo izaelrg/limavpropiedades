@@ -181,15 +181,17 @@
           </a>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mt-3">
-          <div class="card">
-            <img class="card-img-top" src="assets/img/propiedades/property-3.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title mb-0">La Primavera</h5>
-              <span class="card__status">Casa en Renta</span>
-              <p class="card-text mt-3">Casa de 3 recámaras en renovación a cuatro más ampliación para recamara principal.</p>
-              <span class="card__location">Puerto Vallarta</span>
+          <a class="card__property" href="#">
+            <div class="card">            
+                <img class="card-img-top" src="assets/img/propiedades/property-3.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title mb-0">La Primavera</h5>
+                <span class="card__status">Casa en Renta</span>
+                <p class="card-text mt-3">Casa de 3 recámaras en renovación a cuatro más ampliación para recamara principal.</p>
+                <span class="card__location">Puerto Vallarta</span>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -280,23 +282,23 @@
               </div>
               <div class="col-md-6">
                 <h6><span class="contact__icon pr-2"><i class="fas fa-paper-plane"></i></span> Habla con Nosotros!</h6>
-                <p class="contact__email mb-0">Email. info@limavpropiedades.com</p>
-                <p class="contact__phone">Teléfono. 322 135 6609</p>
+                <a class="contact__email d-block" href="mailto:info@limavpropiedades.com" target="blank">Email. info@limavpropiedades.com</a>
+                <a class="contact__phone d-block" href="https://wa.me/523221356609" target="blank">Teléfono. 322 135 6609</a>
                 <div class="d-none d-md-block">
                   <h6><span class="contact__icon"><i class="fas fa-share"></i></span> Redes Sociales</h6>
                   <ul class="list-inline social-buttons">
                     <li class="list-inline-item text-center">
-                      <a href="#">
+                      <a href="https://www.facebook.com/limavpropiedades/" target="blank">
                         <i class="fab fa-facebook-f"></i>
                       </a>
                     </li>
                     <li class="list-inline-item text-center">
-                      <a href="#">
+                      <a href="https://wa.me/523221356609" target="blank">
                         <i class="fab fa-whatsapp"></i>
                       </a>
                     </li>
                     <li class="list-inline-item text-center">
-                      <a href="#">
+                      <a href="https://www.instagram.com/limav.propiedades/">
                         <i class="fab fa-instagram"></i>
                       </a>
                     </li>
@@ -316,20 +318,20 @@
     <div class="container d-flex justify-content-around">
       <div class="row">
         <div class="col-md-4">
-            <img src="assets/img/limav-logo-slogan.svg" alt="LIMAV Propiedades">
-          <ul class="list-inline social-buttons mt-3">
-            <li class="list-inline-item">
-              <a href="#">
+          <img src="assets/img/limav-logo-slogan.svg" alt="LIMAV Propiedades">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item text-center">
+              <a href="https://www.facebook.com/limavpropiedades/" target="blank">
                 <i class="fab fa-facebook-f"></i>
               </a>
             </li>
-            <li class="list-inline-item">
-              <a href="#">
+            <li class="list-inline-item text-center">
+              <a href="https://wa.me/523221356609" target="blank">
                 <i class="fab fa-whatsapp"></i>
               </a>
             </li>
-            <li class="list-inline-item">
-              <a href="#">
+            <li class="list-inline-item text-center">
+              <a href="https://www.instagram.com/limav.propiedades/">
                 <i class="fab fa-instagram"></i>
               </a>
             </li>
@@ -340,24 +342,24 @@
           <div class="text-center">
             <ul class="list-group">
               <li class="list-inline-item">
-                <a href="#"><span>></span> Inicio</a>
+                <a href="#limavpropiedades"><span>></span> Inicio</a>
               </li>
               <li class="list-inline-item">
-                <a href="#"><span>></span> Nosotros</a>
+                <a href="#about"><span>></span> Nosotros</a>
               </li>
               <li class="list-inline-item">
-                <a href="#"><span>></span> Propiedades</a>
+                <a href="#properties"><span>></span> Propiedades</a>
               </li>
               <li class="list-inline-item">
-                <a href="#"><span>></span> Servicios</a>
+                <a href="#services"><span>></span> Servicios</a>
               </li>
             </ul>
           </div>
         </div>
         <div class="d-none d-md-block col-md-4">
           <h6 class="text-uppercase mb-4">Información</h6>
-          <p class="contact__phone"><i class="fas fa-phone-alt"></i> &nbsp; 322 135 6609</p>
-          <p class="contact__email"><i class="far fa-envelope"></i> &nbsp; info@limavpropiedades.com</p>
+          <a class="contact__phone" href="https://wa.me/523221356609" target="blank"><i class="fas fa-phone-alt"></i> &nbsp; 322 135 6609</a>
+          <a class="contact__email" href="mailto:info@limavpropiedades.com" target="blank"><i class="far fa-envelope"></i> &nbsp; info@limavpropiedades.com</a>
         </div>
       </div>
     </div>
@@ -376,12 +378,6 @@
 
   <!-- Custom scripts for this template -->
   <script src="assets/js/limav.min.js"></script>
-
-  <script>
-    $('.carousel').carousel({
-      interval: false
-    })
-</script>
 
 </body>
 
