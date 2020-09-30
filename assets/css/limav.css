@@ -114,7 +114,7 @@ img::-moz-selection {
 }
 
 #mainNav img {
-  width: 52%;
+  width: 22%;
 }
 
 #mainNav .navbar-toggler {
@@ -160,7 +160,7 @@ img::-moz-selection {
     background-color: transparent;
   }
   #mainNav img {
-    width: 52%;
+    width: 22%;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -176,7 +176,7 @@ img::-moz-selection {
     background-color: #211915;
   }
   #mainNav.navbar-shrink img {
-    width: 55%;
+    width: 23%;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
