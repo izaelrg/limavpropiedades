@@ -412,9 +412,6 @@ img::-moz-selection {
   #propertiesdescription .propertiesdescription__col {
     padding: 2em 1.5em;
   }
-  #propertiesdescription .propertiesdescription__image img {
-    width: auto;
-  }
   #propertiesdescription .propertiesdescription__photos {
     padding: 0;
     margin-top: 20vh;
