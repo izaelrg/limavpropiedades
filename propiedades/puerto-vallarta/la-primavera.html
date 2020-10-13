@@ -13,6 +13,10 @@
   <!-- Bootstrap core CSS -->
   <link href="../../assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- Photoswipe core CSS -->
+  <link href="../../assets/lib/photoswipe/css/photoswipe.min.css" rel="stylesheet">
+  <link href="../../assets/lib/photoswipe/default-skin/default-skin.min.css" rel="stylesheet">
+
   <!-- Custom fonts for this template -->
   <link href="../../assets/lib/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Mulish:wght@400;700;900&display=swap" rel="stylesheet">
@@ -50,7 +54,7 @@
   <section class="page-section" id="propertiesdescription">
     <div class="container-fluid">
       <div class="row propertiesdescription__image mb-3">
-          <img src="../../assets/img/propiedades/las-moras/las-moras.jpg" alt="limav-propiedades-las-moras">
+          <img src="../../assets/img/propiedades/la-primavera/la-primavera-hero.jpg" alt="limav-propiedades-la-primavera">
           <div class="col-12 col-lg-8 propertiesdescription__col">
             <div class="propertiesdescription__title">
             <h1 class="propertiesdescription__title--main">Primavera 166</h1>
@@ -59,24 +63,40 @@
             </div>
           </div>
       </div>
+
+      <!-- Images -->
       <div class="row propertiesdescription__photos">
-        <div class="col-6 col-md-2">
-          <img src="../../assets/img/propiedades/las-moras/las-moras-1.jpg" alt="las-moras-casa">
-        </div>
-        <div class="col-6 col-md-2">
-          <img src="../../assets/img/propiedades/las-moras/las-moras-2.jpg" alt="las-moras-sala">
-        </div>
-        <div class="col-6 col-md-2 d-none d-md-block">
-          <img src="../../assets/img/propiedades/las-moras/las-moras-3.jpg" alt="las-moras-patio">
-        </div>
-        <div class="col-6 col-md-2 d-none d-md-block">
-          <img src="../../assets/img/propiedades/las-moras/las-moras-4.jpg" alt="las-moras-escritorio">
-        </div>
-        <div class="col-6 col-md-2 d-none d-md-block">
-          <img src="../../assets/img/propiedades/las-moras/las-moras-5.jpg" alt="las-moras-baño">
-        </div>
-        <div class="col-6 col-md-2 d-none d-md-block">
-          <img src="../../assets/img/propiedades/las-moras/las-moras-6.jpg" alt="las-moras-areas-verdes">
+        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="../../assets/img/propiedades/la-primavera/la-primavera-1.jpg" itemprop="contentUrl" data-size="1024x1024">
+              <img src="../../assets/img/propiedades/la-primavera/la-primavera-1.jpg" alt="la-primavera-casa" itemprop="thumbnail">
+            </a>
+          </figure>
+          <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="../../assets/img/propiedades/la-primavera/la-primavera-2.jpg" itemprop="contentUrl" data-size="1024x1024">
+              <img src="../../assets/img/propiedades/la-primavera/la-primavera-2.jpg" alt="la-primavera-sala" itemprop="thumbnail">
+            </a>
+          </figure>
+          <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="../../assets/img/propiedades/la-primavera/la-primavera-3.jpg" itemprop="contentUrl" data-size="1024x1024">
+              <img src="../../assets/img/propiedades/la-primavera/la-primavera-3.jpg" alt="la-primavera-patio" itemprop="thumbnail">
+            </a>
+          </figure>
+          <figure class="d-none d-md-block" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="../../assets/img/propiedades/la-primavera/la-primavera-4.jpg" itemprop="contentUrl" data-size="1024x1024">
+              <img src="../../assets/img/propiedades/la-primavera/la-primavera-4.jpg" alt="la-primavera-patiohabitacion" itemprop="thumbnail">
+            </a>
+          </figure>
+          <figure class="d-none d-md-block" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="../../assets/img/propiedades/la-primavera/la-primavera-5.jpg" itemprop="contentUrl" data-size="1024x1024">
+              <img src="../../assets/img/propiedades/la-primavera/la-primavera-5.jpg" alt="la-primavera-areas-verdes" itemprop="thumbnail">
+            </a>
+          </figure>
+          <figure class="d-none d-md-block" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="../../assets/img/propiedades/la-primavera/la-primavera-6.jpg" itemprop="contentUrl" data-size="1024x1024">
+              <img src="../../assets/img/propiedades/la-primavera/la-primavera-6.jpg" alt="la-primavera-areas-verdes" itemprop="thumbnail">
+            </a>
+          </figure>
         </div>
       </div>
     </div>
@@ -199,6 +219,73 @@
     </div>
   </footer>
 
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+  
+    <!-- Background of PhotoSwipe. 
+         It's a separate element, as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+  
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+  
+      <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+      <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+  
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+  
+        <div class="pswp__top-bar">
+  
+          <!--  Controls are self-explanatory. Order can be changed. -->
+  
+          <div class="pswp__counter"></div>
+  
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+  
+          <button class="pswp__button pswp__button--share" title="Share"></button>
+  
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+  
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+  
+          <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+  
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+  
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+  
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+  
+      </div>
+  
+    </div>
+  
+  </div>
+
   <!-- Bootstrap core JavaScript -->
   <script src="../../assets/lib/jquery/jquery.min.js"></script>
   <script src="../../assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -208,6 +295,11 @@
 
   <!-- Custom scripts for this template -->
   <script src="../../assets/js/limav.min.js"></script>
+
+  <!-- Photoswipe core JavaScript -->
+  <script src="../../assets/lib/photoswipe/js/photoswipe.min.js"></script>
+  <script src="../../assets/lib/photoswipe/js/photoswipe-ui-default.min.js"></script>
+  <script src="../../assets/lib/photoswipe/js/gallery.min.js"></script>
 
 </body>
 
