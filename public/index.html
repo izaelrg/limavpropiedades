@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+  <!-- Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FH9FT4D3V4"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -10,37 +12,381 @@
 
     gtag('config', 'G-FH9FT4D3V4');
   </script>
+
   <link rel="canonical" href="https://limavpropiedades.com">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>LIMAV Propiedades: Renta y Venta de Propiedades</title>
   <meta name="description" content="Empresa enfocada a la administración, compra, renta, venta, remodelación y construcción de Propiedades. Contactanos para más información!">
-  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/limav.css">
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href="assets/lib/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Mulish:wght@400;700;900&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+  <!-- CSS template -->
+  <link href="assets/css/limav.min.css" rel="stylesheet">
+
 </head>
-<body>
-  <header class="hero">
-    <div class="hero_container">
-      <div class="hero_container-logo">
-        <img src="assets/images/limav-logo.png" srcset="assets/images/limav-logo@2x.png 2x" alt="Limav">
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container mt-2">
+      <a class="w-50" href="#limavpropiedades">
+        <img src="assets/img/limav-logo.svg" alt="LIMAV Propiedades">
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#limavpropiedades">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#properties">Propiedades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
+          </li>
+        </ul>
       </div>
-      <div class="hero_container-social">
-          <a href="https://www.facebook.com/limavpropiedades/" target="blank"><i class="fab fa-facebook"></i></a href="https://www.facebook.com/limavpropiedades/" target="blank">
-          <a href="mailto:info@limavpropiedades.com" target="blank"><i class="far fa-envelope"></i></a href="https://www.facebook.com/limavpropiedades/" target="blank">
-          <a href="https://wa.me/523221356609" target="blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header id="limavpropiedades">
+    <div class="container-fluid px-0">
+      <div id="carouselHero" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselHero" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselHero" data-slide-to="1"></li>
+          <li data-target="#carouselHero" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active hero-image">
+            <div class="d-flex align-item-center justify-content-center vh-100">
+              <div class="container position-absolute carousel__info text-center">
+                <div class="row">
+                  <div class="col">
+                    <img class="limav-logo-slogan" src="assets/img/limav-logo-slogan.svg" alt="LIMAV Propiedades">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel__image">
+                <img src="assets/img/hero/hero-1.jpg" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex align-item-center justify-content-center vh-100">
+              <div class="container position-absolute carousel__info">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h2 class="text-white">Propiedades</h2>
+                    <p class="text-white">Encuentra la casa o departamento perfecto para ti, 
+                      en uno de los lugares más prestigiosos de Puerto Vallarta y Riviera Nayarit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel__image">
+                <img src="assets/img/hero/hero-2.jpg" class="" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex align-item-center justify-content-center vh-100">
+              <div class="container position-absolute carousel__info">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h2 class="text-white">Desarrollos</h2>
+                    <p class="text-white">Oportunidad de inversión para ti y tu familia, en los desarrollos más exclusivos.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel__image">
+                <img src="assets/img/hero/hero-3.jpg" class="" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselHero" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselHero" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
   </header>
 
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="/__/firebase/7.19.1/firebase-app.js"></script>
-  
-  <!-- TODO: Add SDKs for Firebase products that you want to use
-       https://firebase.google.com/docs/web/setup#available-libraries -->
-  <script src="/__/firebase/7.19.1/firebase-analytics.js"></script>
-  
-  <!-- Initialize Firebase -->
-  <script src="/__/firebase/init.js"></script>
+  <!-- About -->
+  <section class="bg-dark page-section" id="about">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-10">
+          <img src="assets/img/limav-logo-info.svg" class="pb-5" alt="LIMAV Propiedades">
+          <p class="text-white text-justify">Somos una empresa enfocada a la Administración, Compra, Renta, Venta, Remodelación y Construcción de Propiedades; siempre tratando de satisfacer sus necesidades, maximizando hasta el más pequeño espacio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Properties -->
+  <section class="page-section" id="properties">
+    <div class="container">
+      <div class="row mb-5">
+          <div class="col-6">
+            <h2 class="section__title">Propiedades</h2>
+            <hr class="title__line--properties">
+          </div>
+          <div class="col-6 text-right">
+            <!-- <a class="btn btn-primary" href="propiedades.html">Ver Todo ></a> -->
+          </div>
+      </div>
+      <!-- CARDS -->
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 mt-3">
+          <a class="card__property" href="propiedades/riviera-nayarit/el-roble.html">
+            <div class="card">
+              <img class="card-img-top" src="assets/img/propiedades/el-roble.jpg" alt="limav-propiedades-el-roble">
+              <div class="card-body">
+                <h5 class="card-title mb-0">El Roble</h5>
+                <span class="card__status">Casa en Renta</span>
+                <p class="card-text mt-3">3 recamaras, área de alberca, otras áreas comunes, excelente ubicación frente a la entrada de Nuevo Vallarta.</p>
+                <span class="card__location">Riviera Nayarit</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mt-3">
+          <a class="card__property" href="propiedades/puerto-vallarta/las-moras.html">
+            <div class="card">
+              <img class="card-img-top" src="assets/img/propiedades/las-moras.jpg" alt="limav-propiedades-las-moras">
+              <div class="card-body">
+                <h5 class="card-title mb-0">Las Moras</h5>
+                <span class="card__status">Casa en Renta</span>
+                <p class="card-text mt-3">Casa con 4 recamaras, espacio para oficina, área de terraza en patio, cochera para dos vehículos, cuarto de lavado.</p>
+                <span class="card__location">Puerto Vallarta</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mt-3">
+          <a class="card__property" href="propiedades/puerto-vallarta/la-primavera.html">
+            <div class="card">
+              <img class="card-img-top" src="assets/img/propiedades/la-primavera/la-primavera.jpg" alt="limav-propiedades-la-primavera">
+              <div class="card-body">
+                <h5 class="card-title mb-0">La Primavera</h5>
+                <span class="card__status">Casa en Renta</span>
+                <p class="card-text mt-3">Casa de 3 recámaras en renovación a cuatro más ampliación para recamara principal.</p>
+                <span class="card__location">Puerto Vallarta</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section class="page-section" id="services">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col col-md-6">
+          <h2 class="section__title">Nuestros Servicios</h2>
+          <hr class="title__line--services">
+        </div>
+      </div>
+      <!-- CARDS -->
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 mt-3">
+          <div class="card">
+            <div class="card-body card__services--rent">
+              <div class="row px-2">
+                <div class="col d-flex justify-content-between">
+                  <h3 class="card-title mb-0"><span class="card__services--name-rent">Renta</span> de <br> Propiedades</h3>
+                  <span class="card__services--icon-rent"><i class="fas fa-home"></i></span>
+                </div>
+              </div> 
+              <p class="card-text text-justify mt-3 mb-4 px-2">Brindamos propiedades en renta y venta en uno de los destinos más excepcionales de México, te apoyamos en el proceso de elegir casa o departamento con prestigiosa ubicación en Puerto Vallarta y Riviera Nayarit que logren alcanzar las expectativas y el bienestar de las familias.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mt-3">
+          <div class="card">
+            <div class="card-body card__services--sell">
+              <div class="row px-2">
+                <div class="col d-flex justify-content-between">
+                  <h3 class="card-title mb-0"><span class="card__services--name-sell">Venta</span> de <br> Terrenos</h3>
+                  <span class="card__services--icon-sell"><i class="fas fa-building"></i></span>
+                </div>
+              </div> 
+              <p class="card-text text-justify mt-3 mb-4 px-2">En Limav Propiedades encuentra una gran oportunidad de inversión para ti y tu familia, aprovecha para encontrar un terreno en areas de rápido crecimiento y con excelente ubicación. Contamos con opciones excelente en pago de contado y opciones de financiamiento muy accesibles.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mt-3">
+          <div class="card">
+            <div class="card-body card__services--pimp">
+              <div class="row px-2">
+                <div class="col d-flex justify-content-between">
+                  <h3 class="card-title mb-0"><span class="card__services--name-pimp">Remodelación</span> de <br> Casas</h3>
+                  <span class="card__services--icon-pimp"><i class="fas fa-pencil-ruler"></i></span>
+                </div>
+              </div> 
+              <p class="card-text text-justify mt-3 mb-4 px-2">Te ofrecemos una remodelación con innovación que mejorará el ambiente y comodidad generando un mayor confort para ti. Construimos o rediseñamos considerando las caracteristicas propias de cada espacio con un diseño innovador y apropiados a tus necesidades.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-6">
+          <h2 class="section__title text-white">Contacto</h2>
+          <hr class="title__line--contact">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input class="form-control" id="name" type="text" placeholder="Nombre" required="required" data-validation-required-message="Por favor ingresa tu nombre.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" id="email" type="email" placeholder="Correo electrónico" required="required" data-validation-required-message="Por favor ingresa tu correo electrónico.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" id="message" placeholder="Mensaje" required="required" data-validation-required-message="Por favor ingresa tu mensaje"></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div id="success"></div>
+                <button id="sendMessageButton" class="btn btn-email btn-xl btn-block mb-4" type="submit">Enviar</button>
+              </div>
+              <div class="col-md-6">
+                <h6><span class="contact__icon pr-2"><i class="fas fa-paper-plane"></i></span> Habla con Nosotros!</h6>
+                <a class="contact__email" href="mailto:info@limavpropiedades.com" target="blank">Email. info@limavpropiedades.com</a>
+                <a class="contact__phone" href="https://wa.me/523221356609" target="blank">Teléfono. 322 135 6609</a>
+                <div class="d-none d-md-block">
+                  <h6><span class="contact__icon"><i class="fas fa-share"></i></span> Redes Sociales</h6>
+                  <ul class="list-inline social-buttons">
+                    <li class="list-inline-item text-center">
+                      <a href="https://www.facebook.com/limavpropiedades/" target="blank">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item text-center">
+                      <a href="https://wa.me/523221356609" target="blank">
+                        <i class="fab fa-whatsapp"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item text-center">
+                      <a href="https://www.instagram.com/limav.propiedades/">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container d-flex justify-content-around">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="assets/img/limav-logo-slogan.svg" alt="LIMAV Propiedades">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item text-center">
+              <a href="https://www.facebook.com/limavpropiedades/" target="blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item text-center">
+              <a href="https://wa.me/523221356609" target="blank">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </li>
+            <li class="list-inline-item text-center">
+              <a href="https://www.instagram.com/limav.propiedades/" target="blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-none d-md-block col-md-4">
+          <h6 class="text-uppercase mb-4">LIMAV Propiedades</h6>
+          <div class="text-center">
+            <ul class="list-group">
+              <li class="list-inline-item">
+                <a href="#limavpropiedades"><span>></span> Inicio</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#about"><span>></span> Nosotros</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#properties"><span>></span> Propiedades</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#services"><span>></span> Servicios</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-none d-md-block col-md-4">
+          <h6 class="text-uppercase mb-4">Información</h6>
+          <a class="contact__phone" href="https://wa.me/523221356609" target="blank"><i class="fas fa-phone-alt"></i> &nbsp; 322 135 6609</a>
+          <a class="contact__email" href="mailto:info@limavpropiedades.com" target="blank"><i class="far fa-envelope"></i> &nbsp; info@limavpropiedades.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="assets/lib/jquery/jquery.min.js"></script>
+  <script src="assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="assets/lib/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="assets/js/jqBootstrapValidation.js"></script>
+  <script src="assets/js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="assets/js/limav.min.js"></script>
+
 </body>
+
 </html>
