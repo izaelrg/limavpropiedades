@@ -317,12 +317,21 @@ img::-moz-selection {
   font-family: 'Mulish', sans-serif;
 }
 
+#allproperties .card__data {
+  font-size: 1.3em;
+}
+
 @media (max-width: 578px) {
   #allproperties .allproperties__title--main {
     font-size: 4.8em;
   }
   #allproperties .allproperties__title--sub {
     font-size: 1.8em;
+  }
+  #allproperties .card__location {
+    display: block;
+    text-align: left;
+    padding-left: 1em;
   }
 }
 
