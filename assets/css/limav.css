@@ -330,7 +330,7 @@ img::-moz-selection {
 
 @media (max-width: 578px) {
   #allproperties .allproperties__title--main {
-    font-size: 4.8em;
+    font-size: 3.6em;
   }
   #allproperties .allproperties__title--sub {
     font-size: 1.8em;
