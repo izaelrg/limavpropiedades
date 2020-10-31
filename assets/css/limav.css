@@ -267,6 +267,13 @@ img::-moz-selection {
   font-size: 0.8em;
 }
 
+@media (max-width: 578px) {
+  #properties .properties__btn {
+    display: block;
+    width: 100%;
+  }
+}
+
 #allproperties {
   color: #fff;
   margin-top: 2em;

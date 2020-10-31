@@ -1,3 +1,6 @@
+# directories
+public/
+
 # Logs
 logs
 *.log
