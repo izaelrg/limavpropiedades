@@ -32,6 +32,9 @@
   <link href="assets/lib/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Mulish:wght@400;700;900&display=swap" rel="stylesheet">
 
+  <!-- Swipe -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
   <!-- CSS template -->
   <link href="assets/css/limav.min.css" rel="stylesheet">
 
@@ -168,46 +171,92 @@
       </div>
       <!-- CARDS -->
       <div class="row">
-        <div class="col-12 col-md-6 col-lg-4 mt-3">
-          <a class="card__property" href="propiedades/riviera-nayarit/el-roble.html">
-            <div class="card">
-              <img class="card-img-top" src="assets/img/propiedades/el-roble.jpg" alt="limav-propiedades-el-roble">
-              <div class="card-body">
-                <h5 class="card-title mb-0">El Roble</h5>
-                <span class="card__status">Casa en Renta</span>
-                <p class="card-text mt-3">3 recamaras, área de alberca, otras áreas comunes, excelente ubicación frente a la entrada de Nuevo Vallarta.</p>
-                <span class="card__location">Riviera Nayarit</span>
-              </div>
+        <!-- Swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="col-12 col-md-6 col-lg-4 mt-3 swiper-slide">
+                <a class="card__property" href="propiedades/riviera-nayarit/el-roble.html">
+                  <div class="card">
+                    <img loading="lazy" class="card-img-top" src="assets/img/propiedades/el-roble.jpg" alt="limav-propiedades-el-roble">
+                    <div class="card-body">
+                      <h5 class="card-title mb-0">El Roble</h5>
+                      <span class="card__status">Casa en Renta</span>
+                      <p class="card-text mt-3">3 recamaras, área de alberca, otras áreas comunes, excelente ubicación frente a
+                        la entrada de Nuevo Vallarta.</p>
+                      <span class="card__location">Riviera Nayarit</span>
+                    </div>
+                  </div>
+                </a>
             </div>
-          </a>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 mt-3">
-          <a class="card__property" href="propiedades/puerto-vallarta/las-moras.html">
-            <div class="card">
-              <img class="card-img-top" src="assets/img/propiedades/las-moras.jpg" alt="limav-propiedades-las-moras">
-              <div class="card-body">
-                <h5 class="card-title mb-0">Las Moras</h5>
-                <span class="card__status">Casa en Renta</span>
-                <p class="card-text mt-3">Casa con 4 recamaras, espacio para oficina, área de terraza en patio, cochera para dos vehículos, cuarto de lavado.</p>
-                <span class="card__location">Puerto Vallarta</span>
-              </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 mt-3 swiper-slide">
+                <a class="card__property" href="propiedades/puerto-vallarta/las-moras.html">
+                  <div class="card">
+                    <img loading="lazy" class="card-img-top" src="assets/img/propiedades/las-moras.jpg" alt="limav-propiedades-las-moras">
+                    <div class="card-body">
+                      <h5 class="card-title mb-0">Las Moras</h5>
+                      <span class="card__status">Casa en Renta</span>
+                      <p class="card-text mt-3">Casa con 4 recamaras, espacio para oficina, área de terraza en patio, cochera
+                        para dos vehículos, cuarto de lavado.</p>
+                      <span class="card__location">Puerto Vallarta</span>
+                    </div>
+                  </div>
+                </a>
             </div>
-          </a>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 mt-3">
-          <a class="card__property" href="propiedades/puerto-vallarta/la-primavera.html">
-            <div class="card">
-              <img class="card-img-top" src="assets/img/propiedades/la-primavera/la-primavera.jpg" alt="limav-propiedades-la-primavera">
-              <div class="card-body">
-                <h5 class="card-title mb-0">La Primavera</h5>
-                <span class="card__status">Casa en Renta</span>
-                <p class="card-text mt-3">Casa de 3 recámaras en renovación a cuatro más ampliación para recamara principal.</p>
-                <span class="card__location">Puerto Vallarta</span>
-              </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 mt-3 swiper-slide">
+                <a class="card__property" href="propiedades/puerto-vallarta/la-primavera.html">
+                  <div class="card">
+                    <img loading="lazy" class="card-img-top" src="assets/img/propiedades/la-primavera/la-primavera.jpg"
+                      alt="limav-propiedades-la-primavera">
+                    <div class="card-body">
+                      <h5 class="card-title mb-0">La Primavera</h5>
+                      <span class="card__status">Casa en Renta</span>
+                      <p class="card-text mt-3">Casa de 3 recámaras en renovación a cuatro más ampliación para recamara
+                        principal.</p>
+                      <span class="card__location">Puerto Vallarta</span>
+                    </div>
+                  </div>
+                </a>
             </div>
-          </a>
+            
+            <div class="col-12 col-md-6 col-lg-4 mt-3 swiper-slide">
+                <a class="card__property" href="propiedades/riviera-nayarit/costa-coral.html">
+                  <div class="card">
+                    <img loading="lazy" class="card-img-top" src="assets/img/propiedades/costa-coral/costa-coral.jpg"
+                      alt="limav-propiedades-costa-coral">
+                    <div class="card-body">
+                      <h5 class="card-title mb-0">Costa Coral</h5>
+                      <span class="card__status">Departamento en Renta</span>
+                      <p class="card-text mt-3">Departamento de 3 recámaras ubicado en zona privilegiada, frente a la entrada de Nuevo Vallarta.</p>
+                      <span class="card__location">Riviera Nayarit</span>
+                    </div>
+                  </div>
+                </a>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mt-3 swiper-slide">
+                <a class="card__property" href="propiedades/puerto-vallarta/el-pitillal.html">
+                  <div class="card">
+                    <img loading="lazy" class="card-img-top" src="assets/img/propiedades/el-pitillal/el-pitillal.jpg"
+                      alt="limav-propiedades-el-pitillal">
+                    <div class="card-body">
+                      <h5 class="card-title mb-0">El Pitillal</h5>
+                      <span class="card__status">Departamento en Renta</span>
+                      <p class="card-text mt-3">Departamento de una habitación ubicado en la zona centro de El Pitillal a 15 minutos de Walmart y Liverpool.</p>
+                      <span class="card__location">Puerto Vallarta</span>
+                    </div>
+                  </div>
+                </a>
+            </div>
+      
+          </div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
       </div>
+
     </div>
   </section>
 
@@ -260,8 +309,10 @@
                   <h3 class="card-title mb-0"><span class="card__services--name-rent">Renta</span> de <br> Propiedades</h3>
                   <span class="card__services--icon-rent"><i class="fas fa-home"></i></span>
                 </div>
-              </div> 
-              <p class="card-text text-justify mt-3 mb-4 px-2">Brindamos propiedades en renta y venta en uno de los destinos más excepcionales de México, te apoyamos en el proceso de elegir casa o departamento con prestigiosa ubicación en Puerto Vallarta y Riviera Nayarit que logren alcanzar las expectativas y el bienestar de las familias.</p>
+              </div>
+              <p class="card-text text-justify mt-3 mb-4 px-2">Brindamos propiedades en renta y venta en uno de los destinos
+                más excepcionales de México, te apoyamos en el proceso de elegir casa o departamento con prestigiosa ubicación
+                en Puerto Vallarta y Riviera Nayarit que logren alcanzar las expectativas y el bienestar de las familias.</p>
             </div>
           </div>
         </div>
@@ -273,8 +324,11 @@
                   <h3 class="card-title mb-0"><span class="card__services--name-sell">Venta</span> de <br> Terrenos</h3>
                   <span class="card__services--icon-sell"><i class="fas fa-building"></i></span>
                 </div>
-              </div> 
-              <p class="card-text text-justify mt-3 mb-4 px-2">En Limav Propiedades encuentra una gran oportunidad de inversión para ti y tu familia, aprovecha para encontrar un terreno en areas de rápido crecimiento y con excelente ubicación. Contamos con opciones excelente en pago de contado y opciones de financiamiento muy accesibles.</p>
+              </div>
+              <p class="card-text text-justify mt-3 mb-4 px-2">En Limav Propiedades encuentra una gran oportunidad de
+                inversión para ti y tu familia, aprovecha para encontrar un terreno en areas de rápido crecimiento y con
+                excelente ubicación. Contamos con opciones excelente en pago de contado y opciones de financiamiento muy
+                accesibles.</p>
             </div>
           </div>
         </div>
@@ -286,13 +340,14 @@
                   <h3 class="card-title mb-0"><span class="card__services--name-pimp">Remodelación</span> de <br> Casas</h3>
                   <span class="card__services--icon-pimp"><i class="fas fa-pencil-ruler"></i></span>
                 </div>
-              </div> 
-              <p class="card-text text-justify mt-3 mb-4 px-2">Te ofrecemos una remodelación con innovación que mejorará el ambiente y comodidad generando un mayor confort para ti. Construimos o rediseñamos considerando las caracteristicas propias de cada espacio con un diseño innovador y apropiados a tus necesidades.</p>
+              </div>
+              <p class="card-text text-justify mt-3 mb-4 px-2">Te ofrecemos una remodelación con innovación que mejorará el
+                ambiente y comodidad generando un mayor confort para ti. Construimos o rediseñamos considerando las
+                caracteristicas propias de cada espacio con un diseño innovador y apropiados a tus necesidades.</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
   </section>
 
   <!-- Contact -->
@@ -420,9 +475,13 @@
   <script src="assets/js/jqBootstrapValidation.js"></script>
   <script src="assets/js/contact_me.js"></script>
 
+  <!-- Swiper -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/lib/swiperjs/swiper.min.js"></script>
+  
   <!-- Custom scripts for this template -->
   <script src="assets/js/limav.min.js"></script>
-
+  
 </body>
 
 </html>

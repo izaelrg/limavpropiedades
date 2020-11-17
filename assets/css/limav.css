@@ -557,7 +557,7 @@ img::-moz-selection {
 section#contact {
   color: #fff !important;
   background-color: #212529;
-  background-image: url("../img/contact.jpg");
+  /* background-image: url("../img/contact.jpg"); */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -759,4 +759,18 @@ section#contact ul.social-buttons li a:active, section#contact ul.social-buttons
   .footer .contact__phone, .footer .contact__email {
     font-size: .9em;
   }
+}
+
+.swiper-button-next, .swiper-button-prev {
+  background: #212529;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  color: white;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+  background: #211915;
+  /* color: #211915; */
+  font-weight: bold;
 }
