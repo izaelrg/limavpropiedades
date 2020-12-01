@@ -774,3 +774,27 @@ section#contact ul.social-buttons li a:active, section#contact ul.social-buttons
   /* color: #211915; */
   font-weight: bold;
 }
+
+.btn__message {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 4.5em;
+  height: 4.5em;
+  border-radius: 50%;
+  border: 0;
+  background-color: #20ce5a;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  z-index: 99;
+}
+.btn__message i {
+  font-size: 3em;
+}
+.btn__message:hover {
+  text-decoration: none;
+}
