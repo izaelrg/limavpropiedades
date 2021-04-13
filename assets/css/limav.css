@@ -369,6 +369,76 @@ img::-moz-selection {
   }
 }
 
+#qr {
+  color: #707070;
+  margin-top: calc(10vh);
+}
+
+#qr a:hover {
+  text-decoration: none;
+}
+
+#qr .qr__title {
+  border-left: 5px solid #29A19C;
+  margin-top: 2.5em;
+}
+
+#qr .qr__title--main {
+  font-size: 5em;
+}
+
+#qr .qr__title--sub {
+  color: #29A19C;
+  font-size: 1.9em;
+}
+
+#qr .card__socialmedia {
+  color: #707070;
+  background-color: white;
+  border: none;
+  border-radius: .4rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+#qr .card__socialmedia {
+  font-size: 0.9em;
+}
+
+#qr .qr__socialmedia {
+  display: flex;
+  justify-content: center;
+}
+
+#qr .qr__socialmedia-icon {
+  color: #fff;
+  font-size: 3em;
+  border-radius: 100%;
+  display: flex;
+  height: 2em;
+  width: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+#qr .qr__socialmedia-icon-facebook {
+  background-color: #3b5998;
+}
+
+#qr .qr__socialmedia-icon-instagram {
+  background-color: #125688;
+}
+
+#qr .qr__socialmedia-icon-whatsapp {
+  background-color: #4dc247;
+}
+
+#qr .qr__socialmedia-icon-limavpropiedades img {
+  width: 96px;
+}
+
+/* .page-section-qr {
+  padding: 3em 0 3em 0;
+} */
 
 #propertiesdescription {
   color: #555555;
@@ -744,6 +814,16 @@ section#contact ul.social-buttons li a:active, section#contact ul.social-buttons
 
 .footer .list-group li span {
   color: #29A19C;
+}
+
+.footer .innovando {
+  font-family: 'Qwigley', cursive;
+  font-size: 2.5em;
+}
+
+.footer .innovando span {
+  font-family: 'Qwigley', cursive;
+  font-size: 2.5em;
 }
 
 @media (max-width: 576px) {
