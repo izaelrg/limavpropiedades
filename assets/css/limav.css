@@ -376,6 +376,7 @@ img::-moz-selection {
 
 #qr h6 {
   font-size: .9rem;
+  color: #211915;
 }
 
 #qr a:hover {
@@ -415,7 +416,7 @@ img::-moz-selection {
 
 #qr .qr__socialmedia-icon {
   color: #fff;
-  font-size: 2em;
+  font-size: 2.5em;
   border-radius: 100%;
   display: flex;
   height: 2em;
@@ -429,7 +430,7 @@ img::-moz-selection {
 }
 
 #qr .qr__socialmedia-icon-instagram {
-  background-color: #125688;
+  background-color: #F56040;
 }
 
 #qr .qr__socialmedia-icon-whatsapp {
@@ -438,6 +439,18 @@ img::-moz-selection {
 
 #qr .qr__socialmedia-icon-limavpropiedades img {
   width: 57.5px;
+}
+
+@media (max-width: 576px) {
+  #qr p {
+    font-size: .7rem;
+  }
+  #qr h6 {
+    font-size: .8rem;
+  }
+  #qr .qr__socialmedia-icon {
+    font-size: 2em;
+  }
 }
 
 #propertiesdescription {
@@ -817,13 +830,13 @@ section#contact ul.social-buttons li a:active, section#contact ul.social-buttons
 }
 
 .footer .innovando {
-  font-family: 'Qwigley', cursive;
-  font-size: 2.5em;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.6em;
 }
 
 .footer .innovando span {
-  font-family: 'Qwigley', cursive;
-  font-size: 2.5em;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.6em;
 }
 
 @media (max-width: 576px) {
