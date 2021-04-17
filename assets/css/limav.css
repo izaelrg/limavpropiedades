@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "innovando";
+  src: url(../fonts/beyond_infinity.ttf);
+}
+
 .bg-dark {
   background-color: #211915 !important;
 }
@@ -830,12 +835,12 @@ section#contact ul.social-buttons li a:active, section#contact ul.social-buttons
 }
 
 .footer .innovando {
-  font-family: 'Dancing Script', cursive;
-  font-size: 1.6em;
+  font-family: 'innovando', cursive;
+  font-size: 2em;
 }
 
 .footer .innovando span {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'innovando', cursive;
   font-size: 1.6em;
 }
 
